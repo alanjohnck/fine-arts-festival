@@ -4,8 +4,8 @@ import { ArrowRight } from "lucide-react";
 
 const scheduleData = [
   {
-    day: "ദിവസം 1",
-    date: "മാർച്ച് 23, 2025",
+    day: "വേദി 1",
+    date: "മാർച്ച് 12, 2025",
     events: [
       { time: "9:30 AM - 10:30 AM", title: "നാടോടി നൃത്തം (ആൺ)", location: "വാനപ്രസ്ഥം (ഓഡിറ്റോറിയം)" },
       { time: "10:30 AM - 12:00 PM", title: "സംഗീതം", location: "വാനപ്രസ്ഥം (ഓഡിറ്റോറിയം)" },
@@ -19,8 +19,8 @@ const scheduleData = [
     
   },
   {
-    day:"ദിവസം 2",
-    date: "മാർച്ച് 24, 2025",
+    day:"വേദി 2",
+    date: "മാർച്ച് 12, 2025",
      events:[
     { time: "9:30 AM - 10:30 AM", title: "കേരളനടനം", location: "രണ്ടാമൂഴം (ചൈത്രം)" },
     { time: "10:30 AM", title: "ഉദ്ഘാടനം", location: "രണ്ടാമൂഴം (ചൈത്രം)" },
@@ -30,8 +30,8 @@ const scheduleData = [
      ]
   },
   {
-    day:"ദിവസം 3",
-    date: "മാർച്ച് 25, 2025",
+    day:"വേദി 3",
+    date: "മാർച്ച് 12, 2025",
      events:[
         { time: "9:30 AM - 11:00 AM", title: "മോണോ ആക്ട്", location: "മഞ്ഞ് (എസ്.കെ പൊറ്റക്കാട് സ്ക്വയർ)" },
         { time: "11:00 AM - 1:00 PM", title: "തുകൽ വാദ്യം (ചെണ്ട /ഇടയ്ക്ക / മദ്ദളം / തബല / പക്കവാദ്യം /മൃദംഗം / ഗഞ്ചിറ /ഘടം / തകിൽ)", location: "മഞ്ഞ് (എസ്.കെ പൊറ്റക്കാട് സ്ക്വയർ)" },
@@ -40,8 +40,8 @@ const scheduleData = [
         { time: "3:00 PM - 5:00 PM", title: "ദേശഭക്തിഗാനം", location: "മഞ്ഞ് (എസ്.കെ പൊറ്റക്കാട് സ്ക്വയർ)" },,
      ]
   },{
-    day:"ദിവസം 4",
-    date: "മാർച്ച് 26, 2025",
+    day:"വേദി 4",
+    date: "മാർച്ച് 12, 2025",
      events:[
         { time: "9:30 AM - 12:30 PM", title: "ലളിത ഗാനം (ആൺ& പെൺ)", location: "നാലുകെട്ട് (PG UP)" },
         { time: "12:30 PM - 2:00 PM", title: "കവിതാപാരായണം", location: "നാലുകെട്ട് (PG UP)" },
@@ -65,7 +65,7 @@ const Schedule = () => {
             <div key={index} className="bg-white p-6 rounded-lg shadow-sm">
               <div className="flex justify-between items-center mb-4">
                 <h3 className="text-xl font-bold text-[#E63946]">{day.day}</h3>
-                <span className="text-[gray-600] font-bold">{day.date}</span>
+                <p className="text-gray-600">{day.date}</p>
               </div>
               <div className="space-y-4">
                 {day.events.map((event, idx) => (

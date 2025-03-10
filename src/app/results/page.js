@@ -33,8 +33,6 @@ export default function PointsTable() {
 
   useEffect(() => {
     fetchPointsData();
-    const intervalId = setInterval(fetchPointsData, 30000);
-    return () => clearInterval(intervalId);
   }, []);
 
   const sortedData = [...pointsData].sort((a, b) => b.points - a.points);
@@ -62,14 +60,14 @@ export default function PointsTable() {
       <main className="mx-auto max-w-5xl relative z-10">
        
 
-        <motion.h1
-          className={`mb-5  md:mt-10  sm:mb-8 md:mb-15 text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold tracking-tight text-center bg-gradient-to-r from-red-200 via-red-400 to-red-800 text-transparent bg-clip-text drop-shadow-sm ${instrument.className}`}
-          initial={{ opacity: 0, y: -20 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.8 }}
-        >
-          Points Table
-        </motion.h1>
+      <motion.h1
+  className="mb-10 mt-20 sm:mb-8 md:mb-15 text-2xl sm:text-2xl md:text-2xl lg:text-5xl font-extrabold tracking-tight text-center bg-gradient-to-r from-amber-600 via-amber-400 to-amper-500 text-transparent bg-clip-text drop-shadow-lg"
+  initial={{ opacity: 0, y: -20 }}
+  animate={{ opacity: 1, y: 0 }}
+  transition={{ duration: 0.8, ease: "easeOut" }}
+>
+  Points Table
+</motion.h1>
 
        
         <motion.div

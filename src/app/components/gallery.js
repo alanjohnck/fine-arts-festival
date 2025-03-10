@@ -11,7 +11,7 @@ const galleryItems = [
   { id: 4, src: "/gallery/arts4.jpg", alt: "Artwork 4", category: "Digital Art" },
   { id: 5, src: "/gallery/arts5.jpg", alt: "Artwork 5", category: "Traditional" },
   { id: 6, src: "/gallery/arts6.jpg", alt: "Artwork 6", category: "Mixed Media" },
-  { id: 7, src: "/gallery/arts7.jpg", alt: "Artwork 7", category: "Mixed Media" },
+  { id: 7, src: "/gallery/arts17.jpg", alt: "Artwork 7", category: "Mixed Media" },
   { id: 9, src: "/gallery/arts9.jpg", alt: "Artwork 9", category: "Mixed Media" },
   { id: 10, src: "/gallery/arts10.jpg", alt: "Artwork 10", category: "Mixed Media" },
   { id: 11, src: "/gallery/arts11.jpg", alt: "Artwork 11", category: "Mixed Media" },
@@ -55,8 +55,7 @@ export default function Gallery() {
               />
               <div className="absolute inset-0 bg-black/0 group-hover:bg-black/20 transition-colors duration-300"></div>
               <div className="absolute bottom-0 left-0 right-0 p-4 bg-gradient-to-t from-black/70 to-transparent text-white opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-                <p className="font-medium">{item.alt}</p>
-                <p className="text-sm text-gray-200">{item.category}</p>
+               
               </div>
             </div>
           </div>
