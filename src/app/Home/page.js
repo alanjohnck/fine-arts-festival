@@ -1,8 +1,8 @@
-import Image from "next/image"
-import Link from "next/link"
-import { ArrowRight, Calendar, MapPin, Users } from "lucide-react"
-import Navbar from "../components/Navbar"
-import Gallery from "../components/gallery"
+import Image from "next/image";
+import Link from "next/link";
+import { ArrowRight, Calendar, MapPin, Users } from "lucide-react";
+import Navbar from "../components/Navbar";
+import Gallery from "../components/gallery";
 
 export default function HomePage() {
   return (
@@ -29,7 +29,6 @@ export default function HomePage() {
             A celebration of creativity, culture, and artistic expression
           </p>
           <div className="flex flex-col md:flex-row gap-4 justify-center items-center">
-            
             <Link
               href="/gallery"
               className="px-8 py-3 border border-primary text-primary rounded-full hover:bg-primary/10 transition-colors"
@@ -46,7 +45,7 @@ export default function HomePage() {
           <div className="max-w-4xl mx-auto">
             <h2 className="text-3xl md:text-4xl font-bold mb-8 text-center">About the Festival</h2>
             <p className="text-lg text-gray-700 mb-8">
-              The "കപ്പോയേറ" Fine Arts Festival is an annual celebration organized by the HALLA BOL STUDENTS UNION,
+              The &quot;കപ്പോയേറ&quot; Fine Arts Festival is an annual celebration organized by the HALLA BOL STUDENTS UNION,
               showcasing the incredible artistic talents of students across various disciplines. From traditional art
               forms to contemporary expressions, the festival provides a platform for creative minds to shine.
             </p>
@@ -97,18 +96,6 @@ export default function HomePage() {
           </div>
         </div>
       </section>
-
-      {/* Results Section */}
-      {/* <section id="results" className="py-20 bg-white">
-        <div className="container mx-auto px-4">
-          <h2 className="text-3xl md:text-4xl font-bold mb-8 text-center">Festival Results</h2>
-          <p className="text-lg text-gray-700 mb-12 text-center max-w-3xl mx-auto">
-            Congratulations to all the winners of our previous festival! Check out the results below.
-          </p>
-
-          <Results />
-        </div>
-      </section> */}
 
       {/* Schedule Section */}
       <section id="schedule" className="py-20 bg-gray-50">
@@ -230,6 +217,5 @@ export default function HomePage() {
         </div>
       </footer>
     </div>
-  )
+  );
 }
-

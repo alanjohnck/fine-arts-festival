@@ -67,7 +67,7 @@ export default function PointsTable() {
         )}
 
         <motion.h1
-          className={`mb-5 mt-10 sm:mb-8 md:mb-15 text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold tracking-tight text-center bg-gradient-to-r from-red-200 via-red-400 to-red-800 text-transparent bg-clip-text drop-shadow-sm ${instrument.className}`}
+          className={`mb-5  md:mt-10  sm:mb-8 md:mb-15 text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold tracking-tight text-center bg-gradient-to-r from-red-200 via-red-400 to-red-800 text-transparent bg-clip-text drop-shadow-sm ${instrument.className}`}
           initial={{ opacity: 0, y: -20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8 }}
