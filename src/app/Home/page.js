@@ -58,13 +58,11 @@ export default function HomePage() {
       {/* Hero Section */}
       <section id="hero" className="relative h-screen flex items-center justify-center overflow-hidden">
         <div className="absolute inset-0 z-0 flex flex-col gap-5">
-       
-       
           <Image
             src="/bgarts.jpg"
             alt="Festival Background"
             fill
-            className="object-cover opacity-[.75]  md:translate-y-[3%]"
+            className="object-cover opacity-[.55] md:translate-y-[3%]"
             priority
           />
         </div>
@@ -73,15 +71,15 @@ export default function HomePage() {
         
         <div className={`container mx-auto px-4 z-20 text-center transition-all duration-1000 ${isVisible.hero ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'}`}>
           <div className="relative inline-block mb-6">
-          <div className="w-72 h-64">
-         <Image
-            src="/logo.png"
-            alt="Festival Background"
-           fill
-            className="w-32 h-64  "
-            priority
-          />
-        </div>
+            <div className="w-72 h-64">
+              <Image
+                src="/logo.png"
+                alt="Festival Logo"
+                fill
+                className="w-32 h-64"
+                priority
+              />
+            </div>
           </div>
           
           <h2 className="text-1xl md:text-4xl font-medium mb-8 text-gray-800">
@@ -133,7 +131,7 @@ export default function HomePage() {
             </p>
             
             <p className="text-lg text-gray-700 mb-12 leading-relaxed">
-            The Zamorin&apos;s Guruvayurappan College in Kozhikode stands as one of Kerala&apos;s most venerable educational institutions, dedicated to delivering quality education since 1877. Originating as Kerala Vidyashala, a noble endeavor aimed at educating the ruling family&apos;s members, the institution has evolved significantly over the past 140 years. Today, it offers a comprehensive range of academic programs, including 12 undergraduate and 9 postgraduate courses, alongside 7 research centers. This growth has enabled the college to educate tens of thousands of students, reinforcing its legacy as a cornerstone of academic excellence in the region.
+              The Zamorin&apos;s Guruvayurappan College in Kozhikode stands as one of Kerala&apos;s most venerable educational institutions, dedicated to delivering quality education since 1877. Originating as Kerala Vidyashala, a noble endeavor aimed at educating the ruling family&apos;s members, the institution has evolved significantly over the past 140 years. Today, it offers a comprehensive range of academic programs, including 12 undergraduate and 9 postgraduate courses, alongside 7 research centers. This growth has enabled the college to educate tens of thousands of students, reinforcing its legacy as a cornerstone of academic excellence in the region.
             </p>
 
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mt-12">
@@ -151,7 +149,7 @@ export default function HomePage() {
                   <MapPin className="h-8 w-8 text-[#E63946]" />
                 </div>
                 <h3 className="text-xl font-semibold mb-3">Location</h3>
-                <p className="text-gray-700">Zamorin's Guruvayurappan College</p>
+                <p className="text-gray-700">Zamorin&apos;s Guruvayurappan College</p>
               </div>
 
               <div className="bg-white p-8 rounded-xl shadow-lg hover:shadow-xl  border border-gray-100 transform hover:-translate-y-1 transition-transform">
@@ -211,16 +209,10 @@ export default function HomePage() {
         </div>
       </section>
 
-      
-
- 
-
-
-
       {/* Footer */}
       <footer className="bg-gray-900 text-white py-12">
         <div className="container mx-auto px-4">
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-8 ">
             <div>
               <h3 className="text-2xl font-bold mb-4">കപ്പോയേറ</h3>
               <p className="text-gray-400">
@@ -240,8 +232,6 @@ export default function HomePage() {
                 +91 95623 27739 
               </p>
             </div>
-
-           
           </div>
 
           <div className="border-t border-gray-800 mt-8 pt-8 text-center text-gray-400 text-sm">
@@ -249,9 +239,6 @@ export default function HomePage() {
           </div>
         </div>
       </footer>
-</div>
+    </div>
   );
 }
-
-      {/* Styles for custom animations */}
-      
