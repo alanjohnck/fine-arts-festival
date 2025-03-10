@@ -140,7 +140,7 @@ export default function HomePage() {
                   <Calendar className="h-8 w-8 text-[#E63946]" />
                 </div>
                 <h3 className="text-xl font-semibold mb-3">Event Dates</h3>
-                <p className="text-gray-700">March 12-13, 2025</p>
+                <p className="text-gray-700">March 11-12, 2025</p>
                 <p className="text-gray-700">9:00 AM - 5:00 PM</p>
               </div>
 

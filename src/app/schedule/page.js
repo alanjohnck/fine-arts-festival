@@ -5,7 +5,7 @@ import { ArrowRight } from "lucide-react";
 const scheduleData = [
   {
     day: "വേദി 1",
-    date: "മാർച്ച് 12, 2025",
+    date: "മാർച്ച് 11, 2025",
     events: [
       { time: "9:30 AM - 10:30 AM", title: "നാടോടി നൃത്തം (ആൺ)", location: "വാനപ്രസ്ഥം (ഓഡിറ്റോറിയം)" },
       { time: "10:30 AM - 12:00 PM", title: "സംഗീതം", location: "വാനപ്രസ്ഥം (ഓഡിറ്റോറിയം)" },
@@ -20,7 +20,7 @@ const scheduleData = [
   },
   {
     day:"വേദി 2",
-    date: "മാർച്ച് 12, 2025",
+    date: "മാർച്ച് 11, 2025",
      events:[
     { time: "9:30 AM - 10:30 AM", title: "കേരളനടനം", location: "രണ്ടാമൂഴം (ചൈത്രം)" },
     { time: "10:30 AM", title: "ഉദ്ഘാടനം", location: "രണ്ടാമൂഴം (ചൈത്രം)" },
@@ -31,7 +31,7 @@ const scheduleData = [
   },
   {
     day:"വേദി 3",
-    date: "മാർച്ച് 12, 2025",
+    date: "മാർച്ച് 11, 2025",
      events:[
         { time: "9:30 AM - 11:00 AM", title: "മോണോ ആക്ട്", location: "മഞ്ഞ് (എസ്.കെ പൊറ്റക്കാട് സ്ക്വയർ)" },
         { time: "11:00 AM - 1:00 PM", title: "തുകൽ വാദ്യം (ചെണ്ട /ഇടയ്ക്ക / മദ്ദളം / തബല / പക്കവാദ്യം /മൃദംഗം / ഗഞ്ചിറ /ഘടം / തകിൽ)", location: "മഞ്ഞ് (എസ്.കെ പൊറ്റക്കാട് സ്ക്വയർ)" },
@@ -41,7 +41,7 @@ const scheduleData = [
      ]
   },{
     day:"വേദി 4",
-    date: "മാർച്ച് 12, 2025",
+    date: "മാർച്ച് 11, 2025",
      events:[
         { time: "9:30 AM - 12:30 PM", title: "ലളിത ഗാനം (ആൺ& പെൺ)", location: "നാലുകെട്ട് (PG UP)" },
         { time: "12:30 PM - 2:00 PM", title: "കവിതാപാരായണം", location: "നാലുകെട്ട് (PG UP)" },
