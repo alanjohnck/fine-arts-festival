@@ -8,9 +8,7 @@ const GallerySection = () => {
     <section id="gallery" className="py-20 bg-gray-50">
       <div className="container mx-auto px-4">
         {/* Introductory Image */}
-        <div className="flex justify-center mb-8">
-          <Image src="/gallery-intro.jpg" alt="Gallery Intro" width={800} height={400} className="rounded-lg shadow-md" />
-        </div>
+       
 
         <h2 className="text-3xl md:text-4xl font-bold mb-6 text-center">Arts Gallery</h2>
         <p className="text-lg text-gray-700 mb-6 text-center max-w-3xl mx-auto">
@@ -22,14 +20,7 @@ const GallerySection = () => {
 
         <Gallery />
 
-        <div className="text-center mt-12">
-          <Link
-            href="#"
-            className="px-8 py-3 border border-primary text-primary rounded-full hover:bg-primary/10 transition-colors inline-flex items-center gap-2"
-          >
-            View All Artwork <ArrowRight size={18} />
-          </Link>
-        </div>
+        
       </div>
     </section>
   );

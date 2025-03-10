@@ -43,7 +43,7 @@ export default function PointsTable() {
   if (loading) {
     return (
       <div className="min-h-screen bg-[radial-gradient(ellipse_at_top,_var(--tw-gradient-stops))] from-slate-900 via-gray-900 to-black flex items-center justify-center">
-        <div className="text-white text-xl">
+        <div className="text-white text-xl flex flex-col justify-center items-center">
           <span className="inline-block animate-spin mr-3">⏳</span>
           Loading points data...
         </div>
@@ -60,11 +60,7 @@ export default function PointsTable() {
       />
 
       <main className="mx-auto max-w-5xl relative z-10">
-        {error && (
-          <div className="bg-red-500/20 border border-red-500/50 text-white px-4 py-2 rounded-lg mb-4 text-center">
-            {error}
-          </div>
-        )}
+       
 
         <motion.h1
           className={`mb-5  md:mt-10  sm:mb-8 md:mb-15 text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold tracking-tight text-center bg-gradient-to-r from-red-200 via-red-400 to-red-800 text-transparent bg-clip-text drop-shadow-sm ${instrument.className}`}

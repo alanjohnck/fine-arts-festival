@@ -5,12 +5,23 @@ import Image from "next/image"
 import { X } from "lucide-react"
 
 const galleryItems = [
-  { id: 1, src: "/placeholder.svg?height=600&width=800", alt: "Artwork 1", category: "Painting" },
-  { id: 2, src: "/placeholder.svg?height=600&width=800", alt: "Artwork 2", category: "Sculpture" },
-  { id: 3, src: "/placeholder.svg?height=600&width=800", alt: "Artwork 3", category: "Photography" },
-  { id: 4, src: "/placeholder.svg?height=600&width=800", alt: "Artwork 4", category: "Digital Art" },
-  { id: 5, src: "/placeholder.svg?height=600&width=800", alt: "Artwork 5", category: "Traditional" },
-  { id: 6, src: "/placeholder.svg?height=600&width=800", alt: "Artwork 6", category: "Mixed Media" },
+  { id: 1, src: "/gallery/arts1.jpg", alt: "Artwork 1", category: "Painting" },
+  { id: 2, src: "/gallery/arts2.jpg", alt: "Artwork 2", category: "Sculpture" },
+  { id: 3, src: "/gallery/arts3.jpg", alt: "Artwork 3", category: "Photography" },
+  { id: 4, src: "/gallery/arts4.jpg", alt: "Artwork 4", category: "Digital Art" },
+  { id: 5, src: "/gallery/arts5.jpg", alt: "Artwork 5", category: "Traditional" },
+  { id: 6, src: "/gallery/arts6.jpg", alt: "Artwork 6", category: "Mixed Media" },
+  { id: 7, src: "/gallery/arts7.jpg", alt: "Artwork 7", category: "Mixed Media" },
+  { id: 9, src: "/gallery/arts9.jpg", alt: "Artwork 9", category: "Mixed Media" },
+  { id: 10, src: "/gallery/arts10.jpg", alt: "Artwork 10", category: "Mixed Media" },
+  { id: 11, src: "/gallery/arts11.jpg", alt: "Artwork 11", category: "Mixed Media" },
+  { id: 12, src: "/gallery/arts12.jpg", alt: "Artwork 11", category: "Mixed Media" },
+  { id: 13, src: "/gallery/arts13.jpg", alt: "Artwork 11", category: "Mixed Media" },
+  { id: 14, src: "/gallery/arts14.jpg", alt: "Artwork 11", category: "Mixed Media" },
+  { id: 15, src: "/gallery/arts15.jpg", alt: "Artwork 11", category: "Mixed Media" },
+  { id: 16, src: "/gallery/arts16.jpg", alt: "Artwork 11", category: "Mixed Media" },
+
+
 ]
 
 export default function Gallery() {
@@ -84,4 +95,3 @@ export default function Gallery() {
     </div>
   )
 }
-
