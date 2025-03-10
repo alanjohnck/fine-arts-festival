@@ -72,7 +72,8 @@ const Schedule = () => {
                   <div key={idx} className="flex border-l-2 border-[#E63946] pl-4 py-2">
                     <div className="w-40 font-medium text-gray-700">{event.time}</div>
                     <div>
-                      <h4 className="font-semibold">{event.title}</h4>
+                      <div></div>
+                      <h4 className="font-semibold ">{event.title}</h4>
                       <p className="text-gray-600 text-sm">{event.location}</p>
                     </div>
                   </div>

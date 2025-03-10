@@ -8,7 +8,7 @@ const galleryItems = [
   { id: 1, src: "/gallery/arts1.jpg", alt: "Artwork 1", category: "Painting" },
   { id: 2, src: "/gallery/arts2.jpg", alt: "Artwork 2", category: "Sculpture" },
   { id: 3, src: "/gallery/arts3.jpg", alt: "Artwork 3", category: "Photography" },
-  { id: 4, src: "/gallery/arts4.jpg", alt: "Artwork 4", category: "Digital Art" },
+  { id: 4, src: "/gallery/arts7.jpg", alt: "Artwork 4", category: "Digital Art" },
   { id: 5, src: "/gallery/arts5.jpg", alt: "Artwork 5", category: "Traditional" },
   { id: 6, src: "/gallery/arts6.jpg", alt: "Artwork 6", category: "Mixed Media" },
   { id: 7, src: "/gallery/arts17.jpg", alt: "Artwork 7", category: "Mixed Media" },
@@ -82,12 +82,7 @@ export default function Gallery() {
               className="object-contain mx-auto max-h-[80vh]"
             />
 
-            <div className="absolute bottom-0 left-0 right-0 p-4 bg-gradient-to-t from-black/70 to-transparent text-white">
-              <p className="font-medium">{galleryItems.find((item) => item.id === selectedImage)?.alt}</p>
-              <p className="text-sm text-gray-200">
-                {galleryItems.find((item) => item.id === selectedImage)?.category}
-              </p>
-            </div>
+            
           </div>
         </div>
       )}
