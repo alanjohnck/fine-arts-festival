@@ -23,8 +23,8 @@ export default function PointsTable() {
       const data = await response.json();
       console.log(data);
       setPointsData(data);
-      setLastUpdated(new Date().toLocaleTimeString());
-      setLoading(false);
+      setLastUpdated(new Date().toLocaleTimeString([], { hour: '2-digit', minute: '2-digit', }));     
+       setLoading(false);
     } catch (err) {
       setError(err.message);
       setLoading(false);
@@ -71,12 +71,7 @@ export default function PointsTable() {
           Points Table
         </motion.h1>
 
-        {lastUpdated && (
-          <p className="text-sm text-gray-600 text-center mb-4">
-            Last updated: {lastUpdated}
-          </p>
-        )}
-
+       
         <motion.div
           className="bg-black/30 backdrop-blur-xl rounded-xl sm:rounded-2xl md:rounded-3xl shadow-[0_8px_30px_rgb(0,0,0,0.12)] overflow-hidden border border-white/10 divide-y divide-white/10"
           initial={{ opacity: 0, y: 20 }}
@@ -163,6 +158,12 @@ export default function PointsTable() {
             ))}
           </div>
         </motion.div>
+        {lastUpdated && (
+          <p className="text-sm text-gray-600 text-center mb-4">
+            Last updated: {lastUpdated}
+          </p>
+        )}
+
       </main>
 
      
