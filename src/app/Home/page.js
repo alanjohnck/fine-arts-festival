@@ -92,10 +92,10 @@ export default function HomePage() {
           
           <div className="flex flex-wrap gap-4 justify-center items-center mt-10">
             <Link
-              href="/gallery"
-              className="px-8 py-3 bg-[#E63946] text-white rounded-full hover:bg-[#c5323f] transition-colors flex items-center gap-2 shadow-lg"
+              href="/results"
+              className="px-8 py-3 bg-[#E63946] text-white rounded-full hover:bg-[#c5323f] transition-colors flex items-center gap-2 shadow-lg animate-pulse"
             >
-              View Gallery <ArrowRight size={16} />
+              View Results <ArrowRight size={16} />
             </Link>
             <a
               href="/rules.pdf"
